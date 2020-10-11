@@ -1,0 +1,389 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+	width: 100%;
+	max-width: 1870px;
+	margin: auto;
+	
+}
+
+/*Cabecera*/
+
+header{
+	width: 100%;
+	height: 200px;
+	background-color: #fcfff5;
+}
+
+.logo{
+	padding: 25px 0;
+}
+
+.logo img{
+	width: 100px;
+	display: block;
+	margin: auto;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+	max-width:  430px;
+	margin: auto;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #7a7a7a;	
+	font-size: 12px;
+}
+
+.menu a:hover{
+	color: #40722A;	
+}
+/*Fin de Cabecera*/
+
+
+
+/*Banner Principal*/
+
+.banner{
+	width: 100%;
+	height: 500px;
+	background-image: url(../imagen/banner2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.banner > div{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(209, 219, 189, 0.5);
+}
+
+.llamada-accion{
+	text-align: center;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+}
+
+.llamada-accion p{
+	font-size: 20px;
+	color: green;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+.llamada-accion h2{
+	font-size: 42px;
+	color: green;
+	width: 100%;
+	padding: 45px 0;
+	background-color: rgba(108, 195, 35, 0.2);
+	max-width: 470px; 
+	border-radius: 50%;
+}
+
+.llamada-accion a{
+	font-size: 15px;
+	text-decoration: none; 
+	color: green;	
+	padding: 18px 18px;
+	background-color: rgba(108, 195, 35, 0.47);
+	margin-top: 35px;
+	border-radius: 50%;
+}
+/*Fin Banner Principal*/
+
+
+
+/*Sección Superalimentos*/
+
+.superalimentos{
+	width: 100%;
+	background-color: #efb810;
+	margin-top: 3px;
+	color: #000000;
+	text-align: center;
+}
+
+.superalimentos h3{
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 42px;
+	padding-bottom: 36px;
+}
+
+.superalimentos p{
+	font-size: 18;
+	padding-bottom: 36px;
+	line-height: 1.7em;
+	max-width: : 380px;
+	margin: 0 auto;
+}
+
+/*Fin Sección Superalimentos*/
+
+/*Sección Propiedades*/
+
+.propiedades > .contenedor{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.foto-propiedades{
+	width: 100%;
+	max-width: 735px;
+	border-bottom: 3px solid #146E39;
+}
+
+.foto-propiedades img{
+	width: 100%;
+}
+
+.beneficios{
+	text-align: center;
+	padding: 100px 0px;
+	max-width: 735px;
+	border-bottom: 3px solid #146E39;
+}
+
+.beneficios p:nth-child(1){
+	font-size: 18px;
+	color: #3c1c22;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #a2a2a2;
+}
+
+.beneficios h3{
+	padding-top: 22px;
+	padding-bottom: 32px;
+	color: #2A724D;
+	font-size: 20px;
+}
+
+.beneficios p:nth-child(3){
+	font-family: 'Cairo', sans-serif;
+	font-size: 16px;
+	color: #3c1c22;
+	padding-bottom: 26px;
+}
+
+.beneficios p:nth-child(4){
+	font-size: 16px;
+	color: #646464;
+	padding-bottom: 20px;
+}
+
+.beneficios a{
+	font-size: 17px;
+	color: #0e96dd;
+}
+
+/*Fin Sección Propiedades*/
+
+
+/*Sección Productos*/
+
+.producido{
+	text-align: center;
+	padding: 100px 0px;
+	max-width: 635px;
+}
+
+.producido p:nth-child(1){
+	font-size: 18px;
+	color: #3c1c22;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #a2a2a2;
+}
+
+.producido h3{
+	padding-top: 22px;
+	padding-bottom: 32px;
+	color: #d57d1a;
+	font-size: 20px;
+}
+
+.producido p:nth-child(3){
+	font-size: 16px;
+	color: #3c1c22;
+	padding-bottom: 26px;
+}
+
+.producido p:nth-child(4){
+	font-size: 16px;
+	color: #646464;
+	padding-bottom: 20px;
+}
+
+.producido a{
+	font-size: 17px;
+	color: #0e96dd;
+}
+
+.productos > .contenedor{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.foto-productos{
+	width: 100%;
+	max-width: 635px;
+}
+
+.foto-productos img{
+	width: 100%;
+}
+
+/*Fin Sección Productos*/
+
+
+
+/*Sección Pie de Página*/
+
+.top-footer{
+  background-color:#064E44;
+  height:25px;
+}
+
+.center-footer{
+  background-color: #053D35;
+}
+
+.center-footer .contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center-footer .widget{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  color:#ab840e;
+
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.center-footer .widget h4{
+  padding-bottom: 35px;
+  font-size: 18px;
+}
+
+.center-footer .widget p{
+  font-size: 14px;  
+}
+
+.center-footer .widget a{
+	font-size: 17px;
+  	color: #ab840e;
+  	text-decoration: none;
+}
+
+.center-footer .widget a:hover{
+	color: #a4281f;
+}
+
+.bottom-footer{
+  background-color:#053D35;
+  height:25px;
+}
+
+.bottom-footer p{
+  color:#ab840e;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*Fin Sección Pie de Página*/
+
+
+/*Efectos en los Botones del Menú*/
+
+body {
+  line-height: 1.317101995;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.centered-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  background-color: #434343;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  height: 30px;
+  width: 100px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 0.2px solid #ffffff;
+  margin-bottom: 40px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #7FF44C;
+  transition: all 500ms ease;
+  z-index: -1;
+}
+
+.btn--2:hover {
+  background-color: #7FF44C;
+  box-shadow: 0 0 10px #7FF44C, 0 0 20px #7FF44C, 0 0 20px #20e2d7;
+  color: #434343;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(32, 226, 215, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+  }
+
+ /*Fin Efectos en los Botones del Menú*/ 
